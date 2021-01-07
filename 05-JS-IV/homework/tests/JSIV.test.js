@@ -49,9 +49,9 @@ describe('invocarMetodo(object, method)', function() {
       x: 0,
       incrementX: function() {
         this.x++;
-      },
+      }
     }
-    invocarMetodo(object, 'incrementX');
+    invocarMetodo(object, "incrementX");
     expect(object.x).toBe(0);
   });
 });
